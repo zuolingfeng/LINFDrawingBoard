@@ -37,7 +37,6 @@
     [_lineColor set];
     _bezierPath.lineWidth = _lineWidth;
     [_bezierPath removeAllPoints];
-    if (_nowPointArray.count < 2) return;
     
     for (int i = 0; i < _pointArray.count; i ++) {
         NSArray *array = _pointArray[i];
@@ -48,6 +47,7 @@
         [_bezierPath stroke];
     }
     
+    if (_nowPointArray.count < 2) return;
     for (int index = 0; index < _nowPointArray.count - 1; index ++) {
         [_bezierPath moveToPoint:[(NSValue *)_nowPointArray[index] CGPointValue]];
         [_bezierPath addLineToPoint:[(NSValue *)_nowPointArray[index + 1] CGPointValue]];
