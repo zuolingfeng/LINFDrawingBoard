@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8C2B2661B228A8B00BA209F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2B2651B228A8B00BA209F /* main.m */; };
+		A8C2B2691B228A8B00BA209F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2B2681B228A8B00BA209F /* AppDelegate.m */; };
+		A8C2B26C1B228A8B00BA209F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2B26B1B228A8B00BA209F /* ViewController.m */; };
+		A8C2B26F1B228A8B00BA209F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C2B26D1B228A8B00BA209F /* Main.storyboard */; };
+		A8C2B2711B228A8B00BA209F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C2B2701B228A8B00BA209F /* Images.xcassets */; };
+		A8C2B2741B228A8B00BA209F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C2B2721B228A8B00BA209F /* LaunchScreen.xib */; };
+		A8C2B2801B228A8B00BA209F /* LINFDrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2B27F1B228A8B00BA209F /* LINFDrawingBoardTests.m */; };
+		A8C2B28B1B228AB600BA209F /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2B28A1B228AB600BA209F /* BoardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C2B27A1B228A8B00BA209F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C2B2581B228A8B00BA209F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C2B25F1B228A8B00BA209F;
+			remoteInfo = LINFDrawingBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8C2B2601B228A8B00BA209F /* LINFDrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LINFDrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C2B2641B228A8B00BA209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C2B2651B228A8B00BA209F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8C2B2671B228A8B00BA209F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8C2B2681B228A8B00BA209F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8C2B26A1B228A8B00BA209F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8C2B26B1B228A8B00BA209F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8C2B26E1B228A8B00BA209F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8C2B2701B228A8B00BA209F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8C2B2731B228A8B00BA209F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A8C2B2791B228A8B00BA209F /* LINFDrawingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LINFDrawingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C2B27E1B228A8B00BA209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C2B27F1B228A8B00BA209F /* LINFDrawingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LINFDrawingBoardTests.m; sourceTree = "<group>"; };
+		A8C2B2891B228AB600BA209F /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		A8C2B28A1B228AB600BA209F /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C2B25D1B228A8B00BA209F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C2B2761B228A8B00BA209F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C2B2571B228A8B00BA209F = {
+			isa = PBXGroup;
+			children = (
+				A8C2B2621B228A8B00BA209F /* LINFDrawingBoard */,
+				A8C2B27C1B228A8B00BA209F /* LINFDrawingBoardTests */,
+				A8C2B2611B228A8B00BA209F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C2B2611B228A8B00BA209F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C2B2601B228A8B00BA209F /* LINFDrawingBoard.app */,
+				A8C2B2791B228A8B00BA209F /* LINFDrawingBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C2B2621B228A8B00BA209F /* LINFDrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A8C2B2671B228A8B00BA209F /* AppDelegate.h */,
+				A8C2B2681B228A8B00BA209F /* AppDelegate.m */,
+				A8C2B26A1B228A8B00BA209F /* ViewController.h */,
+				A8C2B26B1B228A8B00BA209F /* ViewController.m */,
+				A8C2B2891B228AB600BA209F /* BoardView.h */,
+				A8C2B28A1B228AB600BA209F /* BoardView.m */,
+				A8C2B26D1B228A8B00BA209F /* Main.storyboard */,
+				A8C2B2701B228A8B00BA209F /* Images.xcassets */,
+				A8C2B2721B228A8B00BA209F /* LaunchScreen.xib */,
+				A8C2B2631B228A8B00BA209F /* Supporting Files */,
+			);
+			path = LINFDrawingBoard;
+			sourceTree = "<group>";
+		};
+		A8C2B2631B228A8B00BA209F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C2B2641B228A8B00BA209F /* Info.plist */,
+				A8C2B2651B228A8B00BA209F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8C2B27C1B228A8B00BA209F /* LINFDrawingBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8C2B27F1B228A8B00BA209F /* LINFDrawingBoardTests.m */,
+				A8C2B27D1B228A8B00BA209F /* Supporting Files */,
+			);
+			path = LINFDrawingBoardTests;
+			sourceTree = "<group>";
+		};
+		A8C2B27D1B228A8B00BA209F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8C2B27E1B228A8B00BA209F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8C2B25F1B228A8B00BA209F /* LINFDrawingBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C2B2831B228A8B00BA209F /* Build configuration list for PBXNativeTarget "LINFDrawingBoard" */;
+			buildPhases = (
+				A8C2B25C1B228A8B00BA209F /* Sources */,
+				A8C2B25D1B228A8B00BA209F /* Frameworks */,
+				A8C2B25E1B228A8B00BA209F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LINFDrawingBoard;
+			productName = LINFDrawingBoard;
+			productReference = A8C2B2601B228A8B00BA209F /* LINFDrawingBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8C2B2781B228A8B00BA209F /* LINFDrawingBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C2B2861B228A8B00BA209F /* Build configuration list for PBXNativeTarget "LINFDrawingBoardTests" */;
+			buildPhases = (
+				A8C2B2751B228A8B00BA209F /* Sources */,
+				A8C2B2761B228A8B00BA209F /* Frameworks */,
+				A8C2B2771B228A8B00BA209F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C2B27B1B228A8B00BA209F /* PBXTargetDependency */,
+			);
+			name = LINFDrawingBoardTests;
+			productName = LINFDrawingBoardTests;
+			productReference = A8C2B2791B228A8B00BA209F /* LINFDrawingBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C2B2581B228A8B00BA209F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "左凌风";
+				TargetAttributes = {
+					A8C2B25F1B228A8B00BA209F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A8C2B2781B228A8B00BA209F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A8C2B25F1B228A8B00BA209F;
+					};
+				};
+			};
+			buildConfigurationList = A8C2B25B1B228A8B00BA209F /* Build configuration list for PBXProject "LINFDrawingBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8C2B2571B228A8B00BA209F;
+			productRefGroup = A8C2B2611B228A8B00BA209F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C2B25F1B228A8B00BA209F /* LINFDrawingBoard */,
+				A8C2B2781B228A8B00BA209F /* LINFDrawingBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C2B25E1B228A8B00BA209F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C2B26F1B228A8B00BA209F /* Main.storyboard in Resources */,
+				A8C2B2741B228A8B00BA209F /* LaunchScreen.xib in Resources */,
+				A8C2B2711B228A8B00BA209F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C2B2771B228A8B00BA209F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C2B25C1B228A8B00BA209F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C2B26C1B228A8B00BA209F /* ViewController.m in Sources */,
+				A8C2B28B1B228AB600BA209F /* BoardView.m in Sources */,
+				A8C2B2691B228A8B00BA209F /* AppDelegate.m in Sources */,
+				A8C2B2661B228A8B00BA209F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C2B2751B228A8B00BA209F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C2B2801B228A8B00BA209F /* LINFDrawingBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8C2B27B1B228A8B00BA209F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C2B25F1B228A8B00BA209F /* LINFDrawingBoard */;
+			targetProxy = A8C2B27A1B228A8B00BA209F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8C2B26D1B228A8B00BA209F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C2B26E1B228A8B00BA209F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8C2B2721B228A8B00BA209F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C2B2731B228A8B00BA209F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8C2B2811B228A8B00BA209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8C2B2821B228A8B00BA209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8C2B2841B228A8B00BA209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LINFDrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8C2B2851B228A8B00BA209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LINFDrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A8C2B2871B228A8B00BA209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LINFDrawingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LINFDrawingBoard.app/LINFDrawingBoard";
+			};
+			name = Debug;
+		};
+		A8C2B2881B228A8B00BA209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LINFDrawingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LINFDrawingBoard.app/LINFDrawingBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C2B25B1B228A8B00BA209F /* Build configuration list for PBXProject "LINFDrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C2B2811B228A8B00BA209F /* Debug */,
+				A8C2B2821B228A8B00BA209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C2B2831B228A8B00BA209F /* Build configuration list for PBXNativeTarget "LINFDrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C2B2841B228A8B00BA209F /* Debug */,
+				A8C2B2851B228A8B00BA209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8C2B2861B228A8B00BA209F /* Build configuration list for PBXNativeTarget "LINFDrawingBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C2B2871B228A8B00BA209F /* Debug */,
+				A8C2B2881B228A8B00BA209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8C2B2581B228A8B00BA209F /* Project object */;
+}
