@@ -36,6 +36,7 @@
 - (void)drawRect:(CGRect)rect {
     [_lineColor set];
     _bezierPath.lineWidth = _lineWidth;
+    _bezierPath.lineCapStyle = kCGLineCapRound;
     [_bezierPath removeAllPoints];
     
     for (int i = 0; i < _pointArray.count; i ++) {
@@ -53,6 +54,10 @@
         [_bezierPath addLineToPoint:[(NSValue *)_nowPointArray[index + 1] CGPointValue]];
     }
     [_bezierPath stroke];
+}
+
+- (void) setLineWidth:(CGFloat)width {
+    _lineWidth = width;
 }
 
 - (BOOL) isMultipleTouchEnabled {

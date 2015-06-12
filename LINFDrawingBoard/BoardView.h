@@ -10,4 +10,6 @@
 
 @interface BoardView : UIView
 
+- (void) setLineWidth:(CGFloat)width;
+
 @end

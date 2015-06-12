@@ -15,6 +15,7 @@
 		A8C2B2741B228A8B00BA209F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C2B2721B228A8B00BA209F /* LaunchScreen.xib */; };
 		A8C2B2801B228A8B00BA209F /* LINFDrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2B27F1B228A8B00BA209F /* LINFDrawingBoardTests.m */; };
 		A8C2B28B1B228AB600BA209F /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C2B28A1B228AB600BA209F /* BoardView.m */; };
+		BCC67E9A1B2A7B6A00C3AB53 /* LINFPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC67E991B2A7B6A00C3AB53 /* LINFPickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		A8C2B27F1B228A8B00BA209F /* LINFDrawingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LINFDrawingBoardTests.m; sourceTree = "<group>"; };
 		A8C2B2891B228AB600BA209F /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
 		A8C2B28A1B228AB600BA209F /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		BCC67E981B2A7B6A00C3AB53 /* LINFPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINFPickView.h; sourceTree = "<group>"; };
+		BCC67E991B2A7B6A00C3AB53 /* LINFPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINFPickView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				A8C2B2681B228A8B00BA209F /* AppDelegate.m */,
 				A8C2B26A1B228A8B00BA209F /* ViewController.h */,
 				A8C2B26B1B228A8B00BA209F /* ViewController.m */,
+				BCC67E981B2A7B6A00C3AB53 /* LINFPickView.h */,
+				BCC67E991B2A7B6A00C3AB53 /* LINFPickView.m */,
 				A8C2B2891B228AB600BA209F /* BoardView.h */,
 				A8C2B28A1B228AB600BA209F /* BoardView.m */,
 				A8C2B26D1B228A8B00BA209F /* Main.storyboard */,
@@ -228,6 +233,7 @@
 				A8C2B28B1B228AB600BA209F /* BoardView.m in Sources */,
 				A8C2B2691B228A8B00BA209F /* AppDelegate.m in Sources */,
 				A8C2B2661B228A8B00BA209F /* main.m in Sources */,
+				BCC67E9A1B2A7B6A00C3AB53 /* LINFPickView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -343,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -356,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LINFDrawingBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -366,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LINFDrawingBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,6 +432,7 @@
 				A8C2B2851B228A8B00BA209F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8C2B2861B228A8B00BA209F /* Build configuration list for PBXNativeTarget "LINFDrawingBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +441,7 @@
 				A8C2B2881B228A8B00BA209F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
